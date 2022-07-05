@@ -1,6 +1,6 @@
 <template>
   <slide background="green">
-    <svg width="100%" height="100%" viewBox="0 0 2002 1127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2; transform: matrix(1.1,0,0,1.1,19,0);">
+    <svg width="100%" height="100%" viewBox="0 0 2002 1127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g id="Kommune" class="fragment">
         <g transform="matrix(1.07221,0,0,1.59807,-143.668,675.226)">
             <rect x="609.112" y="34.987" width="1314.6" height="219.951" style="fill:rgb(221,234,246);"/>
@@ -214,7 +214,7 @@
         </g>
         <g transform="matrix(1,0,0,1,-103.019,-7)">
             <text x="683.49px" y="92.021px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:46.667px;">Volksrat West-</text>
-            <text x="769.896px" y="140.214px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:46.667px;">kursistans</text>
+            <text x="769.896px" y="140.214px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:46.667px;">kurdistans</text>
         </g>
         <g transform="matrix(2.40999e-16,-3.93582,1.7715,1.08473e-16,-625.133,4221.36)">
             <path d="M977.049,913.074l0,-8.385l43.808,0l-0,-4.192l3.773,8.385l-3.773,8.384l-0,-4.192l-43.808,-0Z" style="fill:rgb(156,194,227);"/>

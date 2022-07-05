@@ -23,6 +23,12 @@ export default {
   components: {
     SlidesComponent
   },
+  data() {
+    return {
+      startTime: 0,
+      endTime: 0
+    };
+  },
   mounted() {
     Reveal.configure({
         keyboard: {
@@ -41,8 +47,18 @@ export default {
       controls: false,
       progress: false,
       hash: true,
+      width: 1920,
+      height: 1080,
 
     });
+    Reveal.on( 'slidechanged', event => {
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+    this.endTime = event.timeStamp;
+    console.log(`indexh: ${event.indexh}, indexv ${event.indexv} ${(this.endTime - this.startTime)/1000}s, slide id: ${event.currentSlide.id}`);
+    this.startTime = event.timeStamp;
+
+
+  } );
   },
 };
 </script>

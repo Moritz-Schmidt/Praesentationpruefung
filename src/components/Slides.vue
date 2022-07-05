@@ -24,7 +24,7 @@
         </li>
         <li> wirtschaftliches System in Rojava</li>
         <li> eine Utopie für westliche Gesellschaften?</li>
-        <li> Fazit & Meinung</li>
+        <li> Meinung</li>
       </ol>
     </div>
   </slide>
@@ -50,7 +50,7 @@
       </pre>
     </aside>
     <img :src="require('@/assets/Emblem_of_the_Self_Administration_of_Northern_and_Eastern_Syria.svg')"
-         style="width: 10vw; float: right; margin-top: -90px;">
+         style="width: 20vw; float: right; margin-top: -200px;">
   </slide>
   <MapComponent id="Karte"/>
   <slide id="geschichte" background="green">
@@ -60,6 +60,9 @@
       <li>Diskriminierung von allen Seiten</li>
       <li><b>12. Januar 2013:</b> mehrere Parteien beschließen gründung einer Übergangsverwaltung</li>
       <li><b>21./27. Januar 2014:</b> Etablierung der Verwaltung in Cizîrê, Kobanê und Efrîn</li>
+      <li><b>17\. März 2016:</b> Eine Versammlung kurdischer, assyrischer, arabischer und turkmenischer Delegierter in
+        Rumaylan rufen die <b>Föderation Nordsyrien – Rojava</b> als autonome Region aus
+      </li>
       <li>YPG und YPJ (de-facto Armee) im Krieg gegen den IS</li>
       <li>Türkische invasion in Nordsyrien</li>
 
@@ -85,17 +88,28 @@
       <h1 class="r-fit-text">Politisches System in Rojava</h1>
       <ul>
         <li>Demokratischer Konföderalismus</li>
-        <li>de-facto Verfassung: "Der Gesellschaftsvertrag der Demokratischen Föderation Nordsyrien"</li>
+        <li>Verfassung: "Der Gesellschaftsvertrag der Demokratischen Föderation Nordsyrien"</li>
         <li>entwickelt von Abdullah Öcalan</li>
         <li>Kombiniert Aspekte des Anarchismus bzw. Anarcho-Kommunismus, Basisdemokratie und Ökologie</li>
       </ul>
+      <aside class="notes" data-markdown>
+        <pre>
+Zitat aus dem Präambel:
+> Die Demokratische Föderation Nordsyrien übernimmt ein konsens-basiertes Regierungssystem, in dem alle Individuen und Gruppen an den Diskussionen und Entscheidungsprozessen gleichberechtigt beteiligt sind.
+        </pre>
+      </aside>
     </slide>
     <slide id="GesellschaftsvertragQuote">
       <quote>
         Dieser Gesellschaftsvertrag stellt ein Beispiel für eine mögliches friedliches Syrien der Zukunft dar und gibt
-        Hoffnung, dass eine demokratischen Alternative zur kapitalistischen Moderne und nationalstaatlicher Barbarei in
+        Hoffnung, dass eine demokratischn Alternative zur kapitalistischen Moderne und nationalstaatlicher Barbarei in
         die Welt ausstrahlen kann.
       </quote>
+      <aside class="notes" data-markdown>
+        <pre>
+          zitat aus dem Vorwort
+        </pre>
+      </aside>
     </slide>
     <slide id="Gesellschaftsvertrag">
       <h1 class="r-fit-text">Gesellschaftsvertrag von Rojava</h1>
@@ -110,7 +124,7 @@
         <li> Lokale Selbstverwaltung</li>
         <li> Recht auf medizinische Versorgung, Wohnraum und Arbeit</li>
       </ul>
-      <img :src="require('@/assets/Coat_of_Arms_of_Rojava.svg')" style="width: 15vw; float: right; margin-top: -456px;">
+      <img :src="require('@/assets/Coat_of_Arms_of_Rojava.svg')" style="width: 22vw;float: right;margin-top: -659px;display: block;">
       <aside class="notes" data-markdown>
         <pre>
 - demoktratische und freie Wahlen (Artikel 3)
@@ -140,7 +154,7 @@ werden nach dem Gesetz bestraft." (Artikel 25)
       <pre>
 ### Demokratischer Konföderalismus
 
-- entwikelt von Abdullah Öcalan und seiner Partei, die Arbeiterpartei Kurdistans (PKK)
+- entwickelt von Abdullah Öcalan und seiner Partei, die Arbeiterpartei Kurdistans (PKK)
   - Öcalan seit 1999 in Haft
   - PKK als Terrororganisation eingeordnet
   - "Führerkult" um Öcalan
@@ -150,7 +164,7 @@ werden nach dem Gesetz bestraft." (Artikel 25)
 notes:
 - bietet einen Rahmen, in dem sich unter anderem Minderheiten, Religionsgemeinschaften, kulturelle Gruppen, geschlechtsspezifische Gruppen und andere gesellschaftliche Gruppen selbständig organisieren können.
 - nichtstaatliches gesellschaftliches Paradigma
-- Demokratie im nahem Osten aufbauen, ohne das diese von kapitalistischen & imperialistichen Mächten augezwungen wird
+- Demokratie im nahem Osten aufbauen, ohne das diese von kapitalistischen & imperialistichen Mächten aufgezwungen wird
 - Kombiniert Aspekte des Anarchismus bzw. Anarcho-Kommunismus, Basisdemokratie und Ökologie
 
       </pre>
@@ -188,7 +202,7 @@ notes:
     </aside>
   </slide>
   <slide id="farmingPic">
-    <img :src="require('@/assets/Farming.png')" style="height: 80vh; margin-top: -10px;">
+    <img :src="require('@/assets/Farming.png')" style="height: 102vh;margin-top: -10px;">
     <aside class="notes" data-markdown>
       <pre>
         - Landwirtschaft spielt eine wichtige Rolle in Rojava
@@ -211,7 +225,7 @@ notes:
     </ul>
   </slide>
   <slide id="KobanePic">
-    <img :src="require('@/assets/kobane.jpg')" style="height: 80vh; margin-top: -10px;">
+    <img :src="require('@/assets/kobane.jpg')" style="height: 100vh;margin-top: -10px;">
     <aside class="notes" data-markdown>
       <pre>
         - Wiederaufbau erfolgreich
@@ -238,7 +252,7 @@ notes:
       </pre>
     </aside>
   </slide>
-  <section :data-background-image="require('@/assets/TreeMap.png')">
+  <section id="utopie?" :data-background-image="require('@/assets/TreeMap.png')">
     <h1 style="text-shadow: 4px 4px 15px #000;">Eine Utopie für westliche Gesellschaften?</h1>
     <aside class="notes" data-markdown>
       <pre>
@@ -253,8 +267,8 @@ notes:
       </pre>
     </aside>
   </section>
-  <section :data-background-image="require('@/assets/AKRose.png')">
-    <h1 style="text-shadow: 4px 4px 15px #000;">Fazit & Meniung</h1>
+  <section id="Meinung" :data-background-image="require('@/assets/AKRose.png')">
+    <h1 style="text-shadow: 4px 4px 15px #000;">Meine Meinung</h1>
     <aside class="notes" data-markdown>
       <pre>
 - interessantes Projekt
@@ -265,7 +279,7 @@ notes:
       </pre>
     </aside>
   </section>
-  <section :data-background-image="require('@/assets/TreeGlobe.png')">
+  <section id="danke" :data-background-image="require('@/assets/TreeGlobe.png')">
     <h1 style="text-shadow: 4px 4px 15px #000;">Danke fürs Zuhören!</h1>
   </section>
 </template>

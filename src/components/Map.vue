@@ -321,8 +321,6 @@ export default {
 
 <style scoped>
 svg {
-  height: 50vh;
-  padding-top: 50px;
   overflow: visible;
 }
 g#Rojava{
